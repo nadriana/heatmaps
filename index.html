@@ -13,14 +13,16 @@
 <body>
     <div class="main">
         <section class="filters">
-            <div class="locations">
-                <h1>Locations:</h1>
+            <h1>Heatmap</h1>
+
+            <h4>
+                Locations:
+            </h4>
+            <div>
                 <button onclick="goToGdl()">GDL</button>
                 <button disabled>MTY</button>
                 <button disabled>MEX</button>
-
             </div>
-
         </section>
         <div id="map"></div>
     </div>
@@ -28,11 +30,11 @@
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ5bmgw92OGQ8-s1CsALBWB8N1Kx-Ce40&callback=initMap&libraries=visualization&v=weekly"
-        async></script> 
+        async></script>
     <script>
-        
+
     </script>
-       
+
 </body>
 
 </html>
